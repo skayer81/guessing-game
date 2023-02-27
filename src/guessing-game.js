@@ -25,3 +25,5 @@ class GuessingGame {
          this.CurentMin = this.CurentValue
     }
 }
+module.exports = GuessingGame;
+
