@@ -11,10 +11,13 @@ describe('#guess', () => {
         let result = game.guess();
         game.lower();
         result = game.guess();
+        console.log(result);
         game.lower();
         result = game.guess();
+        console.log(result);
         game.lower();
         result = game.guess();
+        console.log(result);
         game.greater();
         result = game.guess();
         game.greater();
